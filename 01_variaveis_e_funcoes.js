@@ -70,7 +70,7 @@ function verificarIsMaiorIdade(idade) {
 
 // Alternativa 4
 function verificarIsMaiorIdade(idade) {
-  if (idade>18) {
+  if (idade>=18) {
     console.log("maior ou igual que 18")
   } else if (idade<18) {
     console.log("menor que 18")
